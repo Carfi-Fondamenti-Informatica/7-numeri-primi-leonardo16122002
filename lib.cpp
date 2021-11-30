@@ -5,8 +5,7 @@
 #include "lib.h"
 
 bool ric(int i, int n){
-    
-    if(i==n){
+    if(i==n||n==1){
         return true;
     }
     else if(n%i==0){
