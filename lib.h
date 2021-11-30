@@ -4,6 +4,6 @@
 
 #ifndef ESERCIZIO_VALUTATO_7_LIB_H
 #define ESERCIZIO_VALUTATO_7_LIB_H
-bool primo(int);
+bool ric(int,int);
 #endif //ESERCIZIO_VALUTATO_7_LIB_H
 
