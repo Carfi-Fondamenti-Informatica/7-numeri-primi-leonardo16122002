@@ -4,12 +4,10 @@ using namespace std;
 int n;
 int main() {
     cin>>n;
-    //for(int i=0;i<100;i++){
-        if(primo(n)) {
-            cout << "numero primo" << endl;
-        }else{
-            cout << "numero non primo" << endl;
-        }
-    //}
+    if(ric(2,n)) {
+        cout << "numero primo" << endl;
+    }else{
+        cout << "numero non primo" << endl;
+    }
     return 0;
 }
